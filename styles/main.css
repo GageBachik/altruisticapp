@@ -1,0 +1,53 @@
+html,body{
+	background: black;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#container{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	-webkit-filter: blur(10px);
+	-moz-filter: blur(10px);
+	-o-filter: blur(10px);
+	-ms-filter: blur(10px);
+	filter: blur(10px);
+	opacity: 0.8;
+}
+
+#wrapper {
+	opacity: 0.8;
+	background: rgb(34,34,34); /* for IE */
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+	height: 100%;
+	float: left;
+	clear: both;
+}
+
+.bg-collage{
+	text-align: center;
+	margin: 0 auto;
+}
+
+.bg-image{
+	float: left;
+}
+/* start app styles */
+
+#center-app{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "altruisticapp",
+  "version": "0.0.1",
+  "authors": [
+    "Gage Bachik <gbachik>"
+  ],
+  "description": "A companion website for the iphone app",
+  "main": "\"scripts/main.js\"",
+  "keywords": [
+    "Altruistic"
+  ],
+  "license": "MIT",
+  "homepage": "altruisticapp.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "masonry": "~3.3.1"
+  }
+}
